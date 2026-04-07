@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 基础文字样式 -->
+    <style name="TextAppearance.FLYU" parent="@android:style/TextAppearance">
+    </style>
+
+    <!-- 页面大标题 -->
+    <style name="TextAppearance.FLYU.Display" parent="TextAppearance.FLYU">
+        <item name="android:textSize">34sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:fontFamily">sans-serif-display</item>
+    </style>
+
+    <!-- 模块标题 -->
+    <style name="TextAppearance.FLYU.Title" parent="TextAppearance.FLYU">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <!-- 正文 -->
+    <style name="TextAppearance.FLYU.Body" parent="TextAppearance.FLYU">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:lineSpacingMultiplier">1.4</item>
+    </style>
+
+    <!-- 辅助说明 -->
+    <style name="TextAppearance.FLYU.Caption" parent="TextAppearance.FLYU">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/text_tertiary</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <!-- 数字/配置值 -->
+    <style name="TextAppearance.FLYU.Mono" parent="TextAppearance.FLYU">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:fontFamily">monospace</item>
+    </style>
+
+</resources>

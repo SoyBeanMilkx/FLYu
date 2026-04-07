@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 主色调 - Light Blue -->
+    <color name="primary">#FF03A9F4</color>
+    <color name="primary_dark">#FF0288D1</color>
+    <color name="primary_light">#FFB3E5FC</color>
+
+    <!-- 强调色 -->
+    <color name="accent">#FF00B0FF</color>
+
+    <!-- 文字颜色 -->
+    <color name="text_primary">#FF333333</color>
+    <color name="text_secondary">#FF757575</color>
+    <color name="text_tertiary">#FF8A9CAD</color>
+    <color name="text_disabled">#FFBDBDBD</color>
+    <color name="text_on_primary">#FFFFFFFF</color>
+
+    <!-- 背景色 -->
+    <color name="background">#FFFFFFFF</color>
+    <color name="surface">#FFFAFAFA</color>
+    <color name="indicator">#FFE1F5FE</color>
+
+    <!-- 边框和分割线 -->
+    <color name="divider">#FFE0E0E0</color>
+    <color name="border">#FFB3E5FC</color>
+
+    <!-- 状态色 -->
+    <color name="success">#FF4CAF50</color>
+    <color name="success_light">#FFE8F5E9</color>
+    <color name="error">#FFF44336</color>
+    <color name="error_light">#FFFFEBEE</color>
+    <color name="warning">#FFFF9800</color>
+    <color name="danger">#FFC62828</color>
+
+    <!-- Tag 标签 -->
+    <color name="tag_selected">#FF7B8BE8</color>
+    <color name="tag_normal">#FFEDE8FB</color>
+    <color name="tag_text_selected">#FFFFFFFF</color>
+    <color name="tag_text_normal">#FF555566</color>
+
+    <!-- BottomNavigation -->
+    <color name="nav_selected">#FF0A84FF</color>
+    <color name="nav_unselected">#FF8A94A6</color>
+    <color name="nav_indicator">#260A84FF</color>
+    <color name="nav_surface">#C2F8FBFF</color>
+    <color name="nav_glass_overlay">#59FFFFFF</color>
+
+</resources>

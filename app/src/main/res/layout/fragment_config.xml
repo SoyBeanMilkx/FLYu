@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:paddingBottom="120dp"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:paddingLeft="20dp"
+        android:paddingTop="24dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/config_title"
+            style="@style/TextAppearance.FLYU.Display" />
+
+        <com.yuuki.flyu.ui.widget.DynamicSubtitleView
+            android:id="@+id/config_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textSize="14sp"
+            android:textColor="#6070CC" />
+
+        <!-- 卡片一：状态栏图标 -->
+        <com.yuuki.flyu.ui.widget.LinearLayoutPro
+            android:id="@+id/card_statusbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical"
+            android:padding="0dp" />
+
+        <!-- 卡片二：时钟设置 -->
+        <com.yuuki.flyu.ui.widget.LinearLayoutPro
+            android:id="@+id/card_clock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical"
+            android:padding="0dp" />
+
+        <!-- 卡片三：杂项 -->
+        <com.yuuki.flyu.ui.widget.LinearLayoutPro
+            android:id="@+id/card_misc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical"
+            android:padding="0dp" />
+
+        <!-- 卡片四：锁屏 -->
+        <com.yuuki.flyu.ui.widget.LinearLayoutPro
+            android:id="@+id/card_lockscreen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical"
+            android:padding="0dp" />
+
+        <!-- 卡片五：硬件监控 -->
+        <com.yuuki.flyu.ui.widget.LinearLayoutPro
+            android:id="@+id/card_hw_monitor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical"
+            android:padding="0dp" />
+
+    </LinearLayout>
+
+</ScrollView>

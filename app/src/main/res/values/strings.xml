@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FLYu</string>
+
+    <!-- fragment_home -->
+    <string name="home_title">Home</string>
+    <string name="home_test">test</string>
+
+    <!-- fragment_config -->
+    <string name="config_title">Config</string>
+    <string name="config_scroll_hint">滚动列表观察 BottomNavigation 的液体玻璃折射效果</string>
+</resources>
